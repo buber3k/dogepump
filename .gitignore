@@ -1,0 +1,11 @@
+config/*
+*.jar
+build
+*.iml
+*.log
+build/
+out/
+config/
+.idea/
+.gradle/
+gradle
