@@ -6,11 +6,11 @@ Dogepump to aplikacja napisana w języku Scala, która wykorzystuje fakt istnien
 
 # funkcje
 
-1.Automatyczne wykonywanie zleceń zakupu kryptowalut na podstawie wiadomości z określonych kanałów Discorda. <br>
-2.Zarządzanie pozycjami zakupionymi z użyciem zdefiniowanych parametrów, takich jak oczekiwany zysk, stop loss i dźwignia finansowa. <br>
-3.Monitorowanie pozycji zakupionych, zmiana poziomu stop loss i anulowanie stop loss, gdy nastąpią odpowiednie warunki. <br>
-4.Wysyłanie powiadomień o zakupach i zmianach pozycji za pomocą Telegrama. <br>
-5.Czarna lista słów i niechcianych monet, aby uniknąć fałszywych sygnałów i powtórnych zakupów. <br>
+1. Automatyczne wykonywanie zleceń zakupu kryptowalut na podstawie wiadomości z określonych kanałów Discorda. <br>
+2. Zarządzanie pozycjami zakupionymi z użyciem zdefiniowanych parametrów, takich jak oczekiwany zysk, stop loss i dźwignia finansowa. <br>
+3. Monitorowanie pozycji zakupionych, zmiana poziomu stop loss i anulowanie stop loss, gdy nastąpią odpowiednie warunki. <br>
+4. Wysyłanie powiadomień o zakupach i zmianach pozycji za pomocą Telegrama. <br>
+5. Czarna lista słów i niechcianych monet, aby uniknąć fałszywych sygnałów i powtórnych zakupów. <br>
 
 # Jak to działa
 1. Dogepump pobiera informacje konfiguracyjne, takie jak tokeny dostępu dla Discorda i Telegrama oraz inne ustawienia związane z oczekiwanymi zyskami, stop loss i dźwignią finansową.
