@@ -24,7 +24,11 @@ Taka wiadomość oznacza, że ci którzy wcześniej podążyli za sygnałem zaku
 # Konfiguracja
 
 W pliku config/application znajdują się indywidualne wartości użytkownika
-`binance.apiKey oraz binance.secretKey` - klucze dostępu API do konta Binance
+`binance.apiKey oraz binance.secretKey` klucze dostępu API do konta Binance <br>
+
+`telegram.chatId oraz telegram.botToken` ID chatu na telegranie oraz [token Bota](https://medium.com/geekculture/generate-telegram-token-for-bot-api-d26faf9bf064) <br>
+
+`discord.token` - token kanału Discord <br>
 
 `usdCost` wartość pozycji <br>
 `leverage` wielkość dźwigni <br>
