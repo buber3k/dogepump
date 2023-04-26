@@ -4,7 +4,7 @@ W społeczności kryptowalutowej istnieją tzw. grupy sygnałowe. Za odpowiedni�
 
 Dogepump to aplikacja napisana w języku Scala, która wykorzystuje fakt istnienia takich właśnie kanałów. Automatyzuje ona proces inwestowania w kryptowaluty na podstawie wiadomości z Discorda. Projekt integruje się z platformą Binance oraz komunikatorami Discord i Telegram, aby zapewnić automatyczne zarządzanie inwestycjami w kryptowaluty.
 
-# funkcje
+# Funkcje
 
 1. Automatyczne wykonywanie zleceń zakupu kryptowalut na podstawie wiadomości z określonych kanałów Discorda. <br>
 2. Zarządzanie pozycjami zakupionymi z użyciem zdefiniowanych parametrów, takich jak oczekiwany zysk, stop loss i dźwignia finansowa. <br>
@@ -20,3 +20,16 @@ Dogepump to aplikacja napisana w języku Scala, która wykorzystuje fakt istnien
 Taka wiadomość oznacza, że ci którzy wcześniej podążyli za sygnałem zakupu kryptowaluty STX powinni przenieść stop loss czyli daną cenę tokena, która w przypadku spadku zamknie pozycję na tzw. break even - czyli cenę otwarcia pozycji. Jest to częsta praktyka gdy po jakimś czasie od otworzenia pozycji cena wzrośnie. Co jednak najważnieje osoby, które ręcznie otwierają pozycję na podstawie takich sygnałów w tym przypadku tego nie zrobią - gdyż nie jest to sygnał zakupu, a tylko takie chcemy wykonywać za pomocą dogepumpa. 
 4. Jeżeli token nie znajduję się w top 10 według kapitalizacji rynkowej oraz wiadomość nie zawiera słowa z czarnej listy to aplikacja inicjalizuje usługi zakupu z dźwignią na giełdzie Binance. <br>
 5.Na końcu wysyła wiadmość podsumowującą na komunikatorze Telegram.
+
+# Konfiguracja
+
+W pliku config/application znajdują się indywidualne wartości użytkownika
+`binance.apiKey oraz binance.secretKey` - klucze dostępu API do konta Binance
+
+`usdCost` wartość pozycji
+`leverage` wielkość dźwigni
+`expectedProfit` oczekiwany zysk w formacie 1=100% gdzie 100% to cena startowa
+`expectedElizProfit` oczekiwany zysk od sygnałów użytkownika Eliz
+`expectedJohnProfit` oczekiwany zysk od użytkownika John
+`expectedDownPercent` stop loss pozycji w formacie jak wyżej
+
