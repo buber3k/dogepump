@@ -26,10 +26,10 @@ Taka wiadomość oznacza, że ci którzy wcześniej podążyli za sygnałem zaku
 W pliku config/application znajdują się indywidualne wartości użytkownika
 `binance.apiKey oraz binance.secretKey` - klucze dostępu API do konta Binance
 
-`usdCost` wartość pozycji
-`leverage` wielkość dźwigni
-`expectedProfit` oczekiwany zysk w formacie 1=100% gdzie 100% to cena startowa
-`expectedElizProfit` oczekiwany zysk od sygnałów użytkownika Eliz
-`expectedJohnProfit` oczekiwany zysk od użytkownika John
-`expectedDownPercent` stop loss pozycji w formacie jak wyżej
+`usdCost` wartość pozycji <br>
+`leverage` wielkość dźwigni <br>
+`expectedProfit` oczekiwany zysk w formacie 1=100% gdzie 100% to cena startowa <br>
+`expectedElizProfit` oczekiwany zysk od sygnałów użytkownika Eliz <br>
+`expectedJohnProfit` oczekiwany zysk od użytkownika John <br>
+`expectedDownPercent` stop loss pozycji w formacie jak wyżej <br>
 
