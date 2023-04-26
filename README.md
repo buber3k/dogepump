@@ -4,7 +4,7 @@ W społeczności kryptowalutowej istnieją tzw. grupy sygnałowe. Za odpowiedni�
 
 Dogepump to aplikacja napisana w języku Scala, która wykorzystuje fakt istnienia takich właśnie kanałów. Automatyzuje ona proces inwestowania w kryptowaluty na podstawie wiadomości z Discorda. Projekt integruje się z platformą Binance oraz komunikatorami Discord i Telegram, aby zapewnić automatyczne zarządzanie inwestycjami w kryptowaluty.
 
-#funkcje
+# funkcje
 
 1.Automatyczne wykonywanie zleceń zakupu kryptowalut na podstawie wiadomości z określonych kanałów Discorda. <br>
 2.Zarządzanie pozycjami zakupionymi z użyciem zdefiniowanych parametrów, takich jak oczekiwany zysk, stop loss i dźwignia finansowa. <br>
