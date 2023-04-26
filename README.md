@@ -15,7 +15,7 @@ Dogepump to aplikacja napisana w języku Scala, która wykorzystuje fakt istnien
 # Jak to działa
 1. Dogepump pobiera informacje konfiguracyjne, takie jak tokeny dostępu dla Discorda i Telegrama oraz inne ustawienia związane z oczekiwanymi zyskami, stop loss i dźwignią finansową.
 2. Inicjalizuje klienta Discorda i Telegrama oraz tworzy usługi dla strumienia Discord oraz wymiany Binance.
-3. Tworzy czarną listę niepożądanych monet oraz czarną listę słów. Dlaczego jest to ważne? Tokeny z top 10 kapitalizacji rynkowej ciężko ruszyć wiadomością na takim kanale. Ponad to często pojawiają się tzw. follow up wiadomości zawierające informację w stylu 
+3. Tworzy czarną listę niepożądanych monet oraz czarną listę słów. Dlaczego jest to ważne? Tokeny z top 10 kapitalizacji rynkowej ciężko ruszyć wiadomością na takim kanale. Ponad to często pojawiają się tzw. follow up wiadomości zawierające informację w stylu <br>
 `STX stops moved to BE`<br>
 Taka wiadomość oznacza, że ci którzy wcześniej podążyli za sygnałem zakupu kryptowaluty STX powinni przenieść stop loss czyli daną cenę tokena, która w przypadku spadku zamknie pozycję na tzw. break even - czyli cenę otwarcia pozycji. Jest to częsta praktyka gdy po jakimś czasie od otworzenia pozycji cena wzrośnie. Co jednak najważnieje osoby, które ręcznie otwierają pozycję na podstawie takich sygnałów w tym przypadku tego nie zrobią - gdyż nie jest to sygnał zakupu, a tylko takie chcemy wykonywać za pomocą dogepumpa. 
 4. Jeżeli token nie znajduję się w top 10 według kapitalizacji rynkowej oraz wiadomość nie zawiera słowa z czarnej listy to aplikacja inicjalizuje usługi zakupu z dźwignią na giełdzie Binance.
